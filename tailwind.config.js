@@ -6,13 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        "bootFont": ["bootFont"]
+      fontFamily: {
+        bootFont: ["Poppins", "sans-serif"], // Google Font
       },
-      screens:{
-        "xs": "425px",
-      }
+      screens: {
+        xs: "425px",
+      },
     },
   },
   plugins: [],
-}
+};

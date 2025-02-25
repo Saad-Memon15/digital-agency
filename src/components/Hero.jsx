@@ -16,8 +16,8 @@ const Hero = () => {
 
   useEffect(() => {
     gsap.to(myElement.current, {
-      duration: 2,
-      y: -100,
+      duration: 4,
+      y: -80,
       yoyo: true,
       repeat: -1,
       ease: "power1.inOut",
@@ -51,16 +51,21 @@ const Hero = () => {
         className="lg:w-1/2 w-full md:w-3/4 px-10 md:p-0"
       >
         <h1 className="text-[#7A6960] md:text-5xl text-3xl font-semibold">
-          Fueling Skills, Igniting Careers
+          Empower Your Business with Cutting-Edge Digital Solutions{" "}
         </h1>
         <p className="text-xl mt-5 text-gray-600 primary-font">
-          Master industry-relevant skills with our vernacular online courses.
-          Choose your program, get certified, & open doors to lucrative career
-          opportunities.
+          In today’s fast-paced digital world, a strong online presence isn’t
+          just an option—it’s a necessity. We specialize in custom website
+          development, high-converting eCommerce solutions, and data-driven
+          digital marketing to elevate your brand. Whether you need a visually
+          stunning website, a Shopify or WordPress store, or a strategic
+          marketing campaign, we deliver tailored solutions designed to drive
+          growth and maximize ROI. Take the lead in your industry with a
+          powerful, conversion-focused online presence.
         </p>
         <div className="flex flex-col sm:flex-row items-center mb-12 lg:mb-0 lg:flex-row gap-10 mt-10">
           <a href="#contact" className="">
-            <CtaButton name={"Get Started"} />
+            <CtaButton name={"Get Started Today"} />
           </a>
           {/* <div
             onClick={() => videoStartHandler()}
@@ -72,7 +77,7 @@ const Hero = () => {
       </div>
 
       <div className="lg:w-1/2 w-full md:w-3/4 py-16 px-10 md:px-0">
-        <img ref={myElement} className="w-full animate" src={img} alt="img" />
+        <img ref={myElement} className="w-full animate" src="./images/image.avif" alt="img" />
       </div>
 
       {/* Adding video */}
