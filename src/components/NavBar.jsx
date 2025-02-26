@@ -59,7 +59,7 @@ const NavBar = () => {
           Get Strated
         </button> */}
         <a href="/Marketing-Website/#contact" className="">
-          <CtaButton name={"Get Started"} />
+        <CtaButton name="Get Started" variant="purple" />
         </a>
       </div>
 
