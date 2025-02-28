@@ -22,7 +22,7 @@ const Hero = () => {
       repeat: -1,
       ease: "power1.inOut",
     });
-  }, []);
+    }, []);
 
   useEffect(() => {
     AOS.init();
@@ -50,7 +50,7 @@ const Hero = () => {
         data-aos-duration="1200"
         className="lg:w-1/2 w-full md:w-3/4 px-10 md:p-0"
       >
-        <h1 className="text-[#7A6960] md:text-5xl text-3xl font-semibold">
+        <h1 className="text-[#2F2165] md:text-5xl text-3xl font-semibold">
           Empower Your Business with Cutting-Edge Digital Solutions{" "}
         </h1>
         <p className="text-xl mt-5 text-gray-600 primary-font">

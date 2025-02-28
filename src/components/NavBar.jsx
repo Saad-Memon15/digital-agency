@@ -12,7 +12,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="w-full xl:h-24 lg:h-20 h-16 flex flex-row items-center justify-between lg:px-32 sm:px-20 px-10 shadow-lg relative secondary-font">
+    <div className="w-full xl:h-24 lg:h-20 h-16 flex flex-row items-center justify-between lg:px-32 sm:px-20 px-10 sticky top-0 bg-white z-50 p-4 secondary-font">
       {/* logo */}
       <a
         href="/Marketing-Website/"
@@ -59,7 +59,7 @@ const NavBar = () => {
           Get Strated
         </button> */}
         <a href="/Marketing-Website/#contact" className="">
-        <CtaButton name="Get Started" variant="purple" />
+          <CtaButton name="Get Started" variant="purple" />
         </a>
       </div>
 
